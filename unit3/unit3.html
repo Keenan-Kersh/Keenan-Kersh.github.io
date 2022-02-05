@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dynamic Gallery</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+		<nav>
+			<a href="/index.html">Home</a>
+		</nav>
+		<h1>Dynamic Gallery</h1>
+	</header>
+	<main>
+		<p>When you resize the window, the images will change.</p>
+		<hr>
+		<h2>Cats</h2>
+		<picture>
+			<source media="(min-width:769px)" srcset="/unit3/files/images/cats/cat-large.jpg">
+			<source media="(min-width:426px)" srcset="/unit3/files/images/cats/cat-medium.jpg">
+			<source media="(min-width:321px)" srcset="/unit3/files/images/cats/cat-small.jpeg">
+			<img src="/unit3/files/images/cats/cat-tiny.jpg" alt="Cute Cat" height="200" width ="200">
+		</picture>
+		<hr>
+		<h2>Instant Noodles</h2>
+		<picture>
+			<source media="(min-width:769px)" srcset="/unit3/files/images/noodles/noodle-large.jpg">
+			<source media="(min-width:426px)" srcset="/unit3/files/images/noodles/noodle-medium.jpg">
+			<source media="(min-width:321px)" srcset="/unit3/files/images/noodles/noodle-small.jpg">
+			<img src="/unit3/files/images/noodles/noodle-tiny.jpg" alt="Ramen Noodles" height="200" width ="200">
+		</picture>
+		<hr>
+		<h2>Continents</h2>
+		<picture>
+			<source media="(min-width:769px)" srcset="/unit3/files/images/continents/continent-large.jpg">
+			<source media="(min-width:426px)" srcset="/unit3/files/images/continents/continent-medium.jpg">
+			<source media="(min-width:321px)" srcset="/unit3/files/images/continents/continent-small.jpg">
+			<img src="/unit3/files/images/continents/continent-tiny.jpg" alt="Continent" height="200" width ="200">
+		</picture>
+	</main>
+	<footer>
+		<hr>
+		<p><i>&copy; 2022 Keenan Kersh</i></p>
+	</footer>
+  </body>
+</html>
