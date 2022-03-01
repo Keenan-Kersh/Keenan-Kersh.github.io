@@ -1,0 +1,33 @@
+img.embed {
+	height: 300px;
+}
+
+main {
+	background-color: #1c3454;
+	color: #a65e4b;
+}
+
+body {
+	background-image: url(/unit6/images/baby_metroid.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#wrapper {
+	width:60%;
+ 	margin: auto;
+ 	margin-top: 30px;
+}
+
+ul {
+	list-style-image: url(/unit6/images/metroid.gif);
+}
+
+.specialborder {
+	border: 10px solid transparent;
+	border-image-slice:13 6 5 9;
+	border-image-width:18px 12px 10px 15px;
+	border-image-outset:0px 0px 0px 0px;
+	border-image-repeat:stretch stretch;
+	border-image-source:url(/unit6/images/border_source.jpg);
+}
