@@ -1,0 +1,31 @@
+#fallacies{
+  margin-left:20px;
+}
+
+#toc{
+	border: solid;
+	background-color: #DDD;
+}
+
+ol {
+	counter-reset: item;
+}
+
+ol>li:before {
+	content: counters(item, ".") ". "; 
+  counter-increment: item;
+}
+
+ol>li {
+    display: block;
+}
+
+h3{
+  text-decoration:underline;
+}
+
+p{
+  border-radius:15px;
+  background-color:#EEE;
+  padding: 15px;
+}

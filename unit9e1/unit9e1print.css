@@ -1,0 +1,20 @@
+* {
+	background-color: white;
+	font-color: black;
+}
+
+img {
+	display: none;
+}
+
+body {
+	font-size: 1.25em;
+}
+
+a::after {
+	content: attr(href);
+}
+
+#sidebar, #nav {
+	display: none;
+}
