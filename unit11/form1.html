@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="unit11style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Networking Site Survey</h1>
+	<a href="unit11.html">Home</a>
+	<p>Any details provided will not be stored anywhere. Do not ever give your password in a form such as this one, as your data may be compromised.</p><br>
+	<form action="https://webdevbasics.net/scripts/demo.php">
+		<label for="username">Username:</label><br>
+		<input type="text" id="username" name="username" maxlength="30"><br>
+		<label for="pword">Password:</label><br>
+		<input type="password" id="pword" name="pword"><br><br>
+		<input type="hidden" id="userid" name="userid" value="5281">
+		
+		<p>Favorite Month:</p>
+		<input type="radio" id="jan" name="month" value="jan">
+		<label for="jan">January</label><br>
+		<input type="radio" id="feb" name="month" value="feb">
+		<label for="feb">Febuary</label><br>
+		<input type="radio" id="mar" name="month" value="mar">
+		<label for="mar">March</label><br>
+		<input type="radio" id="apr" name="month" value="apr">
+		<label for="apr">April</label><br>
+		<input type="radio" id="may" name="month" value="may">
+		<label for="may">May</label><br>
+		<input type="radio" id="jun" name="month" value="jun">
+		<label for="jun">June</label><br>
+		<input type="radio" id="jul" name="month" value="jul">
+		<label for="jul">July</label><br>
+		<input type="radio" id="aug" name="month" value="aug">
+		<label for="aug">August</label><br>
+		<input type="radio" id="sep" name="month" value="sep">
+		<label for="sep">September</label><br>
+		<input type="radio" id="oct" name="month" value="oct">
+		<label for="oct">October</label><br>
+		<input type="radio" id="nov" name="month" value="nov">
+		<label for="nov">November</label><br>
+		<input type="radio" id="dec" name="month" value="dec">
+		<label for="dec">December</label><br><br>
+
+		<label for="site">Favorite social networking site:</label>
+		<select id="site" name="site">
+			<option value="none">Choose site</option>
+			<option value="facebook">Facebook</option>
+			<option value="twitter">Twitter</option>
+			<option value="instagram">Instagram</option>
+			<option value="tiktok">Tiktok</option>
+			<option value="reddit">Reddit</option>
+			<option value="snapchat">Snapchat</option>
+		</select><br><br>
+
+		<fieldset>
+			<legend>Shipping Address</legend>
+			<label for="address1">AddressLine1:</label><br>
+			<input type="text" id="address1" name="address1"><br>
+			<label for="address2">AddressLine2:</label><br>
+			<input type="text" id="address2" name="address2"><br>
+			<label for="city">City:</label><br>
+			<input type="text" id="city" name="city"><br>
+			<label for="state">State:</label><br>
+			<input type="text" id="state" name="state"><br>
+			<label for="zip">ZIP:</label><br>
+			<input type="text" id="zip" name="zip"><br>
+		</fieldset><br><br>
+
+		<input type="image" src="img/submit_button.png" alt="Submit">
+	</form>
+</body>
+
+</html>
