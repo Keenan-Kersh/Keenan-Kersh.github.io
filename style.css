@@ -3,3 +3,16 @@ table, td, th {
 	border-collapse: collapse;
 	background-color: #DDD;
 }
+
+header {
+	text-align: center;
+}
+
+main {
+	margin: auto;
+	width: 50%;
+}
+
+td, th {
+	padding: 1%;
+}
